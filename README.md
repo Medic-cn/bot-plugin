@@ -71,7 +71,8 @@ self._relive() # 调用一次的续活时间为self.live_period
 
 例如：
 ```python
-button = self.wait_for_button()```
+button = self.wait_for_button()
+```
 这样，Activity就会卡在这里，直到有按钮被按下才会继续运行。
 
 **也可以指定监听特定按钮和设定超时时间**
